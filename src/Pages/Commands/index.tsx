@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Navbar } from '../../components/Navbar';
 import { Footer } from '../../components/Footer';
-import { Sidebar } from '../../components/Sidebar';
-import { CommandsList } from '../../components/CommandsList';
-import { CommandDetails } from '../../components/CommandDetails';
+import { Sidebar } from '../../Components/Commands/Sidebar';
+import { CommandsList } from '../../Components/Commands/CommandsList';
+import { CommandDetails } from '../../Components/Commands/CommandDetails';
 import { HeaderGroup } from '../../components/Main';
 
 export function Commands() {

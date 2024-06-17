@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import { Home } from "./Pages/Home";
 import { Commands } from "./Pages/Commands";
+import { Blog } from "./Pages/Blog";
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
   {
     path: "/commands",
     element: <Commands />,
+  },
+  {
+    path: "/blog",
+    element: <Blog />,
   },
 ]);
 

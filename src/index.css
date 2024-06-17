@@ -14,7 +14,10 @@ body {
     background: linear-gradient(45deg, rgba(29,29,27,1) 0%, rgba(22,22,22,1) 100%);
     font-family: "Clash Display", sans-serif;
 }
-
+.teste {
+    background: url('https://goatroyale.com/static/media/init.8688ad9d4fa65078c666.png') 50%cover no-repeat;
+    
+}
 .icon-link {
     transition: transform 0.3s ease;
 }

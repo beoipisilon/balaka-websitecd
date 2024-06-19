@@ -17,7 +17,7 @@ export function NewEraSection() {
                         src="/img/icon/diamond-512.png"
                         alt="Imagem Grande"
                         className="w-full h-auto max-w-xs lg:max-w-full"
-                        style={{ maxWidth: '300px', }} // Defina um tamanho máximo personalizado aqui
+                        style={{ maxWidth: '400px', }} // Defina um tamanho máximo personalizado aqui
                     />
                 </div>
                 <div className="lg:w-1/2 text-center lg:text-left">

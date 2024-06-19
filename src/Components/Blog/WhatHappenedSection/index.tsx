@@ -18,7 +18,7 @@ export function WhatHappenedSection() {
                         src="/img/icon/megaphone-3-512.png"
                         alt="Imagem Grande"
                         className="w-full h-auto max-w-xs lg:max-w-full rounded-full mr-2"
-                        style={{ maxWidth: '300px' }} 
+                        style={{ maxWidth: '400px' }} 
                     />
                 </div>
 

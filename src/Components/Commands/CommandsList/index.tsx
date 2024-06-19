@@ -7,8 +7,8 @@ export function CommandsList({ commands, setSelectedCommand, selectedCategory, c
         <h2 className="text-2xl font-bold mb-4">
           COMANDOS <span className="text-[rgb(170,142,214)]">{selectedCategory}</span>
         </h2>
-        <div className="commandScroll flex flex-col gap-4 max-h-96 overflow-y-auto p-2">
-          {commands.map((command, index) => (
+        <div className="commandScroll flex flex-col gap-4 max-h-[500px] overflow-y-auto p-2">
+        {commands.map((command, index) => (
             <div
               key={index}
               className="commands-list flex justify-between items-center p-2 bg-[rgb(35,36,40)] rounded cursor-pointer"

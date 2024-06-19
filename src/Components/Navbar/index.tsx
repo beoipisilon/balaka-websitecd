@@ -4,7 +4,7 @@ import MobileSideBar from './MobileSideBar'
 export function Navbar() {
   return (
     <>
-      <header className="hidden sm:flex lg:flex flex justify-between items-center p-6 text-white min-h-[72px] lg:max-w-[1700px]">
+      <header className="hidden sm:flex lg:flex flex justify-between items-center p-6 text-white min-h-[72px] lg:max-w-[1600px] 2xl:max-w-[2000px]">
         <div className="text-2xl font-bold ml-6 mr-2">
           <span className="text-white">KORA</span>
           <span className="text-[rgb(170,142,214)]">™</span>
@@ -14,7 +14,9 @@ export function Navbar() {
           <nav className="flex mr-5 gap-8 bg-[rgb(41,41,46)] p-5 rounded-lg">
             <a
               href="/"
-              className="text-[rgb(170,142,214)] ml-8 mr-8 hover:text-[rgb(170,142,214)]"
+              className={`ml-8 mr-8 hover:text-[rgb(170,142,214)] ${
+                location.pathname === '/' ? 'text-[rgb(170,142,214)]' : ''
+              }`}
             >
               Início
             </a>
@@ -28,13 +30,17 @@ export function Navbar() {
             </a>
             <a
               href="/commands"
-              className="mr-8 hover:text-[rgb(170,142,214)]"
+              className={`mr-8 hover:text-[rgb(170,142,214)] ${
+                location.pathname === '/commands' ? 'text-[rgb(170,142,214)]' : ''
+              }`}
             >
               Comandos
             </a>
             <a
               href="/blog"
-              className="mr-8 hover:text-[rgb(170,142,214)]"
+              className={`mr-8 hover:text-[rgb(170,142,214)] ${
+                location.pathname === '/blog' ? 'text-[rgb(170,142,214)]' : ''
+              }`}
             >
               Blog
             </a>

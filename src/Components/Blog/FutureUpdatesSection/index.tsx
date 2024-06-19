@@ -22,7 +22,7 @@ export function FutureUpdatesSection() {
                 </div>
                 <div className="lg:w-1/2 text-center lg:text-left">
                     <h2 className="text-3xl font-bold mb-4 bg-gradient-to-r from-purple-500 to-purple-800 text-transparent bg-clip-text">Futuras atualizações?</h2>
-                    <p className="text-[#4d4d4d] text-lg mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Curabitur et velit sit amet quam ultrices venenatis.</p>
+                    <p className="text-[#4d4d4d] text-lg mb-4">A kora tem uma grande lista de atualizações que estão sendo constantemente desenvolvidas para seu lancamento nos proximos meses:</p>
                 </div>
             </div>
         </motion.section>

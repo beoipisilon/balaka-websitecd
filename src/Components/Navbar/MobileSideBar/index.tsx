@@ -31,7 +31,9 @@ export default function MobileSideBar() {
                   INICIO
                 </a>
                 <a
-                  href="/discord"
+                  href="https://discord.gg/dasdjasdas"
+                  target="_blank" 
+                  rel="noopener noreferrer" 
                   className="text-kora-Neutral-kora-neutral-6 font-medium bg-kora-Neutral-kora-neutral-10 bg-opacity-50 py-3 rounded-md"
                 >
                   SUPORTE

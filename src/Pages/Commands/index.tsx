@@ -31,7 +31,6 @@ export function Commands() {
         { name: 'avatar', description: 'Descrição admin 1', perms: ['teste', 'teste2'], command: 's!avatar @usuario', example: 's!avatar @usuario' },
         { name: 'avatar', description: 'Descrição admin 1', perms: ['teste', 'teste2'], command: 's!avatar @usuario', example: 's!avatar @usuario' },
         { name: 'avatar', description: 'Descrição admin 1', perms: ['teste', 'teste2'], command: 's!avatar @usuario', example: 's!avatar @usuario' },
-        { name: 'avatar', description: 'Descrição admin 1', perms: ['teste', 'teste2'], command: 's!avatar @usuario', example: 's!avatar @usuario' },
 
     ],
     'MODERAÇÃO': [
@@ -49,19 +48,27 @@ export function Commands() {
       <HeaderGroup>
         <Navbar />
       </HeaderGroup>
-      <div className="flex flex-grow">
+      <div className="flex flex-grow flex-col md:flex-row">
         <Sidebar 
           categories={categories} 
           setSelectedCategory={setSelectedCategory} 
           selectedCategory={selectedCategory} 
+          className="w-full md:w-1/4"
         />
-        <CommandsList
-            commands={commandsData[selectedCategory]}
-            setSelectedCommand={setSelectedCommand}
-            selectedCategory={selectedCategory} 
-          />
-          {selectedCommand && <CommandDetails key={selectedCommand.name} command={selectedCommand} />}
+        <div className="flex flex-col md:flex-row flex-grow">
+          <CommandsList
+              commands={commandsData[selectedCategory]}
+              setSelectedCommand={setSelectedCommand}
+              selectedCategory={selectedCategory}
+              className="md:w-3/4"
+            />
+          {selectedCommand && (
+            <div className="md:w-3/4">
+              <CommandDetails key={selectedCommand.name} command={selectedCommand} />
+            </div>
+          )}
         </div>
+      </div>
       <Footer />
     </div>
   );

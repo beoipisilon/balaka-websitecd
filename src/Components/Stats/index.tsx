@@ -14,7 +14,7 @@ export function Stats() {
                     </div>
                     <div className="m-6 text-center transform transition-transform duration-300 hover:scale-105 mb-6 sm:mb-0">
                         <h2 className="text-4xl font-bold">2<span className="text-yellow-500">+</span></h2>
-                        <p className="text-gray-400">Versões oficais lançadas</p>
+                        <p className="text-gray-400">Versões Lançadas</p>
                     </div>
                     <div className="m-6 text-center transform transition-transform duration-300 hover:scale-105 mb-6 sm:mb-0">
                         <h2 className="text-4xl font-bold">20<span className="text-green-500">+</span></h2>

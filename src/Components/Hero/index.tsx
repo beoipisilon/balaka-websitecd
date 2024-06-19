@@ -9,10 +9,9 @@ export function Hero() {
           </h1>
           <div className="hero-description-container mt-4 text-gray-400">
             <p className="hero-description">
-              Olá meu nome é Kora! Sou uma bot focada em comandos de: Moderação,
-              diversão, gerais e um incrível sistema de RPG o <b>Rush Dungeon.</b> Ficou
-              interessado(a) em me conhecer? Me adicione agora e veja o mundo infinito de
-              possibilidade para seu servidor. Tchauu 💜
+            Olá, meu nome é Kora! Sou uma bot focada em comandos de: moderação, diversão, gerais e 
+            um incrível sistema de RPG, o <b>Rush Dungeon.</b><br></br>Ficou interessado(a) 
+            em me conhecer? Me adicione agora e veja o mundo infinito de possibilidades para seu servidor. Tchau 💜
             </p>
           </div>
           <div className="mt-6 flex gap-4">
@@ -24,7 +23,7 @@ export function Hero() {
             </button>
           </div>
         </div>
-        <div className="flex justify-center items-center p-4 rounded-full hero-image-container 2xl:mr-20">
+        <div className="flex justify-center items-center p-2 rounded-full hero-image-container 2xl:mr-20">
           <img
             src="/img/icon/kora.jpg"
             alt="Imagem do seu bot"

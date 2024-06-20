@@ -21,7 +21,7 @@ export function Navbar() {
               Início
             </a>
             <a
-              href="https://discord.gg/dasdjasdas"
+              href="https://discord.gg/korabot"
               className="mr-8 hover:text-[rgb(170,142,214)]"
               target="_blank" 
               rel="noopener noreferrer" 

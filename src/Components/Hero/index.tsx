@@ -9,18 +9,18 @@ export function Hero() {
           </h1>
           <div className="hero-description-container mt-4 text-gray-400">
             <p className="hero-description">
-            Olá, meu nome é Kora! Sou uma bot focada em comandos de: moderação, diversão, gerais e 
-            um incrível sistema de RPG, o <b>Rush Dungeon.</b><br></br>Ficou interessado(a) 
-            em me conhecer? Me adicione agora e veja o mundo infinito de possibilidades para seu servidor. Tchau 💜
+              Olá, meu nome é Kora! Sou uma bot focada em comandos de: moderação, diversão, gerais e 
+              um incrível sistema de RPG, o <b>Rush Dungeon.</b><br></br>Ficou interessado(a) 
+              em me conhecer? Me adicione agora e veja o mundo infinito de possibilidades para seu servidor. Tchau 💜
             </p>
           </div>
           <div className="mt-6 flex gap-4">
-            <button className="px-4 py-2 bg-gradient-to-r from-purple-400 to-purple-600 text-white rounded hover:bg-blue-700 hero-button">
+            <a href="https://discord.com/api/oauth2/authorize?client_id=756362948695425135&permissions=8&scope=bot%20applications.commands" className="px-4 py-2 bg-gradient-to-r from-purple-400 to-purple-600 text-white rounded hover:bg-blue-700 hero-button">
               Me Adicione
-            </button>
-            <button className="px-4 py-2 bg-gradient-to-r from-gray-600 to-gray-800 text-white rounded hover:bg-gray-900 hero-button">
+            </a>
+            <a href="https://discord.gg/korabot" className="px-4 py-2 bg-gradient-to-r from-gray-600 to-gray-800 text-white rounded hover:bg-gray-900 hero-button">
               Servidor de Suporte
-            </button>
+            </a>
           </div>
         </div>
         <div className="flex justify-center items-center p-2 rounded-full hero-image-container 2xl:mr-20">
@@ -34,3 +34,4 @@ export function Hero() {
     </>
   );
 }
+

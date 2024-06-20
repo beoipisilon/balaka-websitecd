@@ -22,7 +22,10 @@ export function NewEraSection() {
                 </div>
                 <div className="lg:w-1/2 text-center lg:text-left">
                     <h2 className="text-3xl font-bold mb-4">Nova Era</h2>
-                    <p className="text-lg mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Curabitur et velit sit amet quam ultrices venenatis.</p>
+                    <p className="text-lg mb-4">Agora que você sabe o que aconteceu com a Kora podemos pular para a próxima etapa. Depois de 2 anos de muitos pensamentos e desânimos tomando conta do ambiente, a Kora decide voltar! Mas dessa vez, diferente de tudo que ela possuía na versão 1.0, agora a ideia é outra! Seu grande retorno conta com diversas novidades únicas e mostra que, mesmo sendo derrubada uma vez, não perdeu sua vontade de continuar mesmo com tantas dificuldades a enfrentar. O cenário agora é outro e a Kora chega disposta a entregar tudo do bom e do melhor para o seu servidor do Discord. 
+                        <br></br>
+                        <br></br>“Todos caem, mas apenas os fracos continuam no chão...” - Bob Marley
+                    </p>
                 </div>
             </div>
         </motion.section>

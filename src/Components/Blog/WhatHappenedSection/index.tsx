@@ -6,7 +6,7 @@ export function WhatHappenedSection() {
         <>
         <motion.section
             id="what-happened"
-            className="min-h-screen flex items-center mt-[-50px] justify-center"
+            className="min-h-screen flex items-center md:mt-[-50px] justify-center"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, ease: "easeOut" }}

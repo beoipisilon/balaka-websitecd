@@ -1,27 +1,37 @@
-# React + TypeScript + Vite
+# Discord Bot Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A simple page to display the bot's name and commands, developed in TypeScript.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Display the bot's name clearly.
+- List available commands for easy reference.
+- Responsive design for optimal viewing on all devices.
 
-## Expanding the ESLint configuration
+## Usage
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Access the page to view the bot's name and commands.
+- The commands available for the bot will be displayed for users to see.
 
-- Configure the top-level `parserOptions` property like this:
+## Demo Video
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+You can watch a demonstration of the project [here]([https://www.youtube.com/watch?v=LW-NvHslwVg](https://drive.google.com/file/d/1abhruniNNObOKb0hI7-mhFhCwvAwRGNv/view?usp=sharing).
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Installation
+
+To set up the Discord bot page, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/discord-bot-page.git
+   cd discord-bot-page
+
+2. Install the dependencies:
+   ```bash
+   npm install
+
+4. Run the project:
+   ```bash
+   npm run dev
+
+Access the page at http://localhost:3000 (or another configured port).

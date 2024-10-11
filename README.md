@@ -23,7 +23,7 @@ To set up the Discord bot page, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/discord-bot-page.git
+   git clone https://github.com/beoipisilon/balaka-websitecd.git
    cd discord-bot-page
 
 2. Install the dependencies:

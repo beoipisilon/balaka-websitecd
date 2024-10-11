@@ -15,7 +15,7 @@
 
 ## Demo Video
 
-You can watch a demonstration of the project [here]([https://www.youtube.com/watch?v=LW-NvHslwVg](https://drive.google.com/file/d/1abhruniNNObOKb0hI7-mhFhCwvAwRGNv/view?usp=sharing).
+You can watch a demonstration of the project [here](https://drive.google.com/file/d/1abhruniNNObOKb0hI7-mhFhCwvAwRGNv/view?usp=sharing).
 
 ## Installation
 

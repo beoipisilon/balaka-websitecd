@@ -1,7 +1,14 @@
-import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-export function CommandDetails({ command }) {
+interface Command {
+  name: string;
+  description: string;
+  perms: string[];
+  command: string;
+  example: string;
+}
+
+export function CommandDetails({ command }: { command: Command }) {
   return (
     <>
       <AnimatePresence>
@@ -22,7 +29,7 @@ export function CommandDetails({ command }) {
             <div className="mb-4">
               <p className="text-1xl text-white mb-2">Permissões que o BOT precisa:</p>
               <div className="flex flex-wrap">
-                {command.perms.map((i, index) => (
+                {command.perms.map((i: string, index: number) => (
                   <span key={index} className="mr-2 p-1 text-white border border-purple-500 text-gray-400 text-sm rounded-lg mb-1">
                     {i}
                   </span>

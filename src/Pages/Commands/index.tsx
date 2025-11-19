@@ -1,14 +1,14 @@
-import React, { useState } from 'react';
-import { Navbar } from '../../components/Navbar';
-import { Footer } from '../../components/Footer';
+import { useState } from 'react';
+import { Navbar } from '../../Components/Navbar';
+import { Footer } from '../../Components/Footer';
 import { Sidebar } from '../../Components/Commands/Sidebar';
 import { CommandsList } from '../../Components/Commands/CommandsList';
 import { CommandDetails } from '../../Components/Commands/CommandDetails';
-import { HeaderGroup } from '../../components/Main';
+import { HeaderGroup } from '../../Components/Main';
 
 export function Commands() {
-  const [selectedCategory, setSelectedCategory] = useState('ADMINISTRAÇÃO');
-  const [selectedCommand, setSelectedCommand] = useState(null);
+  const [selectedCategory, setSelectedCategory] = useState<string>('ADMINISTRAÇÃO');
+  const [selectedCommand, setSelectedCommand] = useState<{ name: string; description: string; perms: string[]; command: string; example: string } | null>(null);
 
   const categories = [
     'ADMINISTRAÇÃO',
@@ -18,7 +18,7 @@ export function Commands() {
     'KORA',
   ];
 
-  const commandsData = {
+  const commandsData: Record<string, { name: string; description: string; perms: string[]; command: string; example: string }[]> = {
     'ADMINISTRAÇÃO': [
         { name: 'lock', description: 'Bloqueia o chat para o envio de mensagens', perms: ['Gerenciar Canais', 'Gerenciar mensagens'], command: 'k!lock', example: 'k!lock no canal desejado' },
         { name: 'unlock', description: 'Desbloqueia o chat para o envio de mensagens', perms: ['Gerenciar Canais', 'Gerenciar mensagens'], command: 'k!unlock', example: 'k!unlock no canal desejado' },
@@ -73,12 +73,11 @@ export function Commands() {
         <Sidebar 
           categories={categories} 
           setSelectedCategory={setSelectedCategory} 
-          selectedCategory={selectedCategory} 
-          className="w-full md:w-1/4"
+          selectedCategory={selectedCategory}
         />
         <div className="flex flex-col md:flex-row flex-grow">
           <CommandsList
-              commands={commandsData[selectedCategory]}
+              commands={commandsData[selectedCategory] || []}
               setSelectedCommand={setSelectedCommand}
               selectedCategory={selectedCategory}
               className="md:w-3/4"

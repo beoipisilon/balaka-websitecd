@@ -1,9 +1,9 @@
-import { Navbar } from "../../components/Navbar";
-import { WhatHappenedSection } from "../../components/Blog/WhatHappenedSection";
+import { Navbar } from "../../Components/Navbar";
+import { WhatHappenedSection } from "../../Components/Blog/WhatHappenedSection";
 import { NewEraSection } from "../../Components/Blog/NewEraSection";
-import { FutureUpdatesSection } from '../../components/Blog/FutureUpdatesSection';
-import { HeaderGroup } from "../../components/Main";
-import { Footer } from "../../components/Footer";
+import { FutureUpdatesSection } from '../../Components/Blog/FutureUpdatesSection';
+import { HeaderGroup } from "../../Components/Main";
+import { Footer } from "../../Components/Footer";
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
@@ -34,7 +34,7 @@ export function Blog() {
   );
 }
 
-const AnimatedSection = ({ children }) => {
+const AnimatedSection = ({ children }: { children: React.ReactNode }) => {
   const { ref, inView } = useInView({
       triggerOnce: false, 
       threshold: 0.5 

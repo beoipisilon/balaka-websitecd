@@ -1,4 +1,3 @@
-import React from 'react';
 import MobileSideBar from './MobileSideBar'
 
 export function Navbar() {

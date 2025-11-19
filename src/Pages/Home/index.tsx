@@ -1,8 +1,8 @@
-import { Navbar } from "../../components/Navbar";
-import { Hero } from "../../components/Hero";
-import { HeaderGroup } from "../../components/Main";
-import { Stats} from "../../components/Stats";
-import { Footer } from "../../components/Footer";
+import { Navbar } from "../../Components/Navbar";
+import { Hero } from "../../Components/Hero";
+import { HeaderGroup } from "../../Components/Main";
+import { Stats} from "../../Components/Stats";
+import { Footer } from "../../Components/Footer";
 
 export function Home() {
   return (

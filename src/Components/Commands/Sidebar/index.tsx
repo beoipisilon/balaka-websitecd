@@ -1,4 +1,4 @@
-export function Sidebar({ categories, setSelectedCategory, selectedCategory }) {
+export function Sidebar({ categories, setSelectedCategory, selectedCategory }: { categories: string[]; setSelectedCategory: (category: string) => void; selectedCategory: string }) {
     return (
       <>
         <div className="m-5 bg-gradient-to-br from-[rgb(41,41,46)] to-[rgb(31,31,36)] text-white p-4 min-w-[200px] rounded-lg">
@@ -7,7 +7,7 @@ export function Sidebar({ categories, setSelectedCategory, selectedCategory }) {
             <p className="mt-2 text-[rgb(170,142,214)] font-bold">CATEGORIAS</p>
         </div>
         <div className="flex flex-col gap-4 text-sm">
-            {categories.map(category => (
+            {categories.map((category: string) => (
                 <button
                 key={category}
                 onClick={() => setSelectedCategory(category)}

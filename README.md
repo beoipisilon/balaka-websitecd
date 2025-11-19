@@ -1,4 +1,4 @@
-[![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=balaka-websitecd)](https://balaka-websitecd.vercel.app)
+[![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=balaka-websitecd-u6nr)](https://balaka-websitecd-u6nr.vercel.app)
 
 
 
